@@ -1,7 +1,9 @@
-const Home = () => {
+import {NextPage} from 'next'
+const Home:NextPage = () => {
   return (
     <div>
-      Hello
+      Hello there
+      <button className="btn "> Hi there</button>
     </div>
   )
 }
